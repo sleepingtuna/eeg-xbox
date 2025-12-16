@@ -1,0 +1,13 @@
+import vgamepad as vg
+
+CLIENT_ID = 'vy9HVAxEqEeor7XvGDhNDCcQiACd0VL9zTqmvfeY'
+CLIENT_SECRET = 'qL3DtKEJJUzhO6ispf9MtplR4DqJxVIoJCyJfpDbTGu6bPKmK70qq12aaGTHd7uoi7kiKIfxSoNMC2cpiKG0YdvHll63LaM1cNNmkLkjgkhhUXxrmNl7DivtRnC4n9va'
+CORTEX_URL = 'wss://localhost:6868'
+
+POWER_THRESHOLD = 0.6
+DEBOUNCE_SECONDS = 0.5
+
+ACTION_TO_BUTTON = {
+    "push": vg.XUSB_BUTTON.XUSB_GAMEPAD_A,
+    # "pull": vg.XUSB_BUTTON.XUSB_GAMEPAD_B,
+}
